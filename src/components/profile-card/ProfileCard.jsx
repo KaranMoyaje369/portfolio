@@ -4,6 +4,7 @@ import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import profileImage from "/assets/profileImage.webp";
+import { NavLink } from "react-router-dom";
 
 const ProfileCard = () => {
   return (
@@ -57,9 +58,12 @@ const ProfileCard = () => {
           </a>
         </div>
         <div>
-          <button className="bg-btnColor text-primary text-lg font-bold hover:bg-btnHover hover:text-black transition ease-in-out duration-400 shadow-secondaryShadow md:px-4 p-2 rounded-2xl tracking-wider">
+          <NavLink
+            to="/contact"
+            className="bg-btnColor text-primary text-lg font-bold hover:bg-btnHover hover:text-black transition ease-in-out duration-400 shadow-secondaryShadow md:px-4 p-2 rounded-2xl tracking-wider"
+          >
             Hire Me
-          </button>
+          </NavLink>
         </div>
       </div>
     </>
