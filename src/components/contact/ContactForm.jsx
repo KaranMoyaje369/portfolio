@@ -82,7 +82,7 @@ const ContactForm = () => {
             )}
           </div>
           <input
-            className="bg-btnColor text-primary text-lg font-bold hover:bg-btnHover hover:text-black transition ease-in-out duration-400 shadow-secondaryShadow md:px-4 p-2 rounded-2xl tracking-wider mt-4"
+            className="bg-btnColor text-primary text-lg font-bold hover:bg-btnHover hover:text-black transition ease-in-out duration-400 shadow-secondaryShadow md:px-4 p-2 rounded-2xl tracking-wider mt-4 cursor-pointer"
             type="submit"
           />
         </div>
