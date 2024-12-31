@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
+import { NavLink } from "react-router-dom";
 
 const HeroSection = () => {
   const roles = [
@@ -61,12 +62,18 @@ const HeroSection = () => {
           </h4>
         </div>
         <div className="flex gap-4 justify-center lg:justify-start">
-          <button className="bg-btnColor text-primary text-lg font-bold hover:bg-btnHover hover:text-black transition ease-in-out duration-400 shadow-secondaryShadow md:px-4 p-2 rounded-2xl tracking-wider">
+          <NavLink
+            to="/projects"
+            className="bg-btnColor text-primary text-lg font-bold hover:bg-btnHover hover:text-black transition ease-in-out duration-400 shadow-secondaryShadow md:px-4 p-2 rounded-2xl tracking-wider"
+          >
             View My Work
-          </button>
-          <button className="bg-btnHover text-black text-lg font-bold hover:bg-btnColor hover:text-primary transition ease-in-out duration-400 shadow-secondaryShadow md:px-4 p-2 rounded-2xl tracking-wider">
+          </NavLink>
+          <NavLink
+            to="/contact"
+            className="bg-btnHover text-black text-lg font-bold hover:bg-btnColor hover:text-primary transition ease-in-out duration-400 shadow-secondaryShadow md:px-4 p-2 rounded-2xl tracking-wider"
+          >
             Get In Touch
-          </button>
+          </NavLink>
         </div>
       </div>
     </>

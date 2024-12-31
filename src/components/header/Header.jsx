@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "/assets/portfolio.png";
 import ResponsiveNavbar from "../navbar/ResponsiveNavbar";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -18,9 +19,12 @@ const Header = () => {
             >
               Download CV
             </a>
-            <button className="bg-btnHover text-black text-lg font-bold hover:bg-btnColor hover:text-primary transition ease-in-out duration-400 shadow-secondaryShadow md:px-4 p-2 rounded-2xl tracking-wider">
+            <NavLink
+              to="/contact"
+              className="bg-btnHover text-black text-lg font-bold hover:bg-btnColor hover:text-primary transition ease-in-out duration-400 shadow-secondaryShadow md:px-4 p-2 rounded-2xl tracking-wider"
+            >
               Contact US
-            </button>
+            </NavLink>
           </div>
           <div className="md:hidden">
             <ResponsiveNavbar />
