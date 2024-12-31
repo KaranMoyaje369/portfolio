@@ -3,6 +3,7 @@ import { Data } from "../../data/data";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
+import profileImage from "../../assets/profileImage.webp";
 
 const ProfileCard = () => {
   return (
@@ -13,8 +14,7 @@ const ProfileCard = () => {
             <div key={index}>
               <div>
                 <img
-                  src={profile.home.profile.profileImage}
-                  alt="profile"
+                  src={profileImage}
                   className="rounded-full h-40 w-40 mx-auto mb-2"
                 />
               </div>
