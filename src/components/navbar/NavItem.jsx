@@ -9,7 +9,7 @@ import { RiContactsFill } from "react-icons/ri";
 import { NavLink } from "react-router-dom";
 
 const NavItem = () => {
-  const isHomePage = window.location.pathname === "/";
+  const isHomePage = window.location.pathname === "/portfolio/";
 
   return (
     <>

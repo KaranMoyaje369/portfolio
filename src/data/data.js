@@ -6,7 +6,7 @@ export const Data = [
         name: "Karan Moyaje",
         message:
           "Welcome to my creative space, where ideas come to life! I believe in turning challenges into opportunities and dreams into achievements. Let's build something amazing together!",
-        profileImage: "src/assets/profileImage.webp",
+        profileImage: "./src/assets/profileImage.webp",
         socialLinks: {
           linkedin: "https://www.linkedin.com/in/karan-moyaje/",
           github: "https://github.com/KaranMoyaje369",
@@ -33,7 +33,7 @@ export const Data = [
         },
         quote:
           "Transforming ideas into reality through innovative web solutions.",
-        aboutImage: "src/assets/aboutImage.webp",
+        aboutImage: "./src/assets/aboutImage.webp",
       },
     ],
     education: [
