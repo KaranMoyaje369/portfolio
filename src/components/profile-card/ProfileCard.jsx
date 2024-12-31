@@ -3,7 +3,7 @@ import { Data } from "../../data/data";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
-import profileImage from "../../assets/profileImage.webp";
+import profileImage from "/assets/profileImage.webp";
 
 const ProfileCard = () => {
   return (

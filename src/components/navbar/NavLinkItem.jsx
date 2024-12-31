@@ -36,10 +36,14 @@ const NavLinkItem = () => {
         );
       })}
 
-      <div className="flex justify-center items-center gap-2 bg-btnHover hover:bg-btnColor hover:text-primary transition ease-in-out duration-400 mt-2 shadow-secondaryShadow px-4 py-2 rounded-lg">
+      <a
+        href="assets/resume.pdf"
+        download
+        className="flex justify-center items-center gap-2 bg-btnColor text-primary hover:bg-btnHover hover:text-black transition ease-in-out duration-400 mt-2 shadow-secondaryShadow px-4 py-2 rounded-lg"
+      >
         <span className="font-bold">CV </span>
         <RiFolderDownloadFill className="text-2xl" />
-      </div>
+      </a>
     </>
   );
 };

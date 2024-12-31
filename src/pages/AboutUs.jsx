@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import NavItem from "../components/navbar/NavItem";
 import { Data } from "../data/data";
-import aboutImage from "../assets/aboutImage.webp";
+import aboutImage from "/assets/aboutImage.webp";
 
 const AboutUs = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/portfolio.png";
+import logo from "/assets/portfolio.png";
 import ResponsiveNavbar from "../navbar/ResponsiveNavbar";
 
 const Header = () => {
@@ -11,9 +11,13 @@ const Header = () => {
             <img src={logo} alt="" className="h-[50px] w-[50px]" />
           </div>
           <div className="md:flex gap-4 hidden">
-            <button className="bg-btnHover text-black text-lg font-bold hover:bg-btnColor hover:text-primary transition ease-in-out duration-400 shadow-secondaryShadow md:px-4 p-2 rounded-2xl tracking-wider">
+            <a
+              href="assets/resume.pdf"
+              download
+              className="bg-btnHover text-black text-lg font-bold hover:bg-btnColor hover:text-primary transition ease-in-out duration-400 shadow-secondaryShadow md:px-4 p-2 rounded-2xl tracking-wider"
+            >
               Download CV
-            </button>
+            </a>
             <button className="bg-btnHover text-black text-lg font-bold hover:bg-btnColor hover:text-primary transition ease-in-out duration-400 shadow-secondaryShadow md:px-4 p-2 rounded-2xl tracking-wider">
               Contact US
             </button>
