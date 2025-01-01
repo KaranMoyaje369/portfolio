@@ -26,7 +26,14 @@ const NavItem = () => {
           key={index}
           className="bg-btnHover relative group shadow-primaryShadow p-2 rounded-full hover:-translate-y-2 transition-transform duration-300 hover:shadow-secondaryShadow"
         >
-          <NavLink to={item.to} className="cursor-pointer text-3xl">
+          <NavLink
+            to={item.to}
+            className={({ isActive }) =>
+              isActive
+                ? "cursor-pointer text-3xl text-primary border-b-2 border-gray-400 pb-2"
+                : "cursor-pointer text-3xl pb-2"
+            }
+          >
             {item.icon}
           </NavLink>
 
